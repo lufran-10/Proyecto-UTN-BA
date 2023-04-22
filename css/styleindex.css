@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  display: block;
+  margin: 20px auto;
+  height: 35vh;
+}
+
+nav {
+  background-color: #E71D36;
+}
+
+ul.container {
+  flex-direction: row;
+}
+
+footer {
+  background-color: #201E1F;
+  color: #fdfffc;
+}
