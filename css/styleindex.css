@@ -51,6 +51,28 @@ nav {
   background-color: #E5E5E5;
 }
 
+.card {
+  border: 2px solid #FCA311;
+  /* border-color: #FCA311; */
+}
+
+.card.uno, .card.dos {
+  border-right: 1px dashed #FCA311;
+}
+
+.card-header {
+  background-color: #C6110C;
+  color: #E5E5E5;
+}
+
+.card-footer {
+  background-color: #E5E5E5;
+}
+
+.card, .card-footer {
+  color: #020101;
+}
+
 footer {
   background-color: #C6110C;
   color: #ffffff;
