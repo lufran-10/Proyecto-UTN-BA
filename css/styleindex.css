@@ -29,16 +29,12 @@ header::after {
   border-right: 40px solid transparent;
 }
 
-#logo {
-  /* display: inline-block; */
-  /* margin: 20px auto; */
-  /* height: 25vh; */
-}
+/* header img {
+  border: 5px solid #C6110C;
+} */
 
 nav {
   background-color: #C6110C;
-  /* margin-top: 15vh;
-  height: 15vh; */
 }
 
 .nav-link {
@@ -51,9 +47,12 @@ nav {
   background-color: #E5E5E5;
 }
 
+#carouselPromo {
+  width: 95vw;
+}
+
 .card {
   border: 2px solid #FCA311;
-  /* border-color: #FCA311; */
 }
 
 .card.uno, .card.dos {
