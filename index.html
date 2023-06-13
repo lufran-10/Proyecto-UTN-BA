@@ -11,6 +11,7 @@
   <title>Il Gatto Nero | ¡Bienvenido!</title>
 </head>
 <body>
+  <!-- Navbar + Logo -->
   <header class="row align-items-center my-5 mx-3 g-0">
     <nav class="navbar col p-0">
       <ul class="navbar-nav d-flex flex-row justify-content-evenly w-100">
@@ -32,14 +33,15 @@
           <a class="nav-link btn p-2" href="./Contacto.html">Contacto</a>
         </li>
         <li class="nav-item w-25">
-          <a class="nav-link btn p-2" href="#"><i class="fa-solid fa-phone fa-flip-horizontal fa-xl" style="color: #fca311;"></i></a>
+          <a class="nav-link btn p-2" href="#" title="Llamá y pedí"><i class="fa-solid fa-phone fa-flip-horizontal fa-xl" style="color: #fca311;"></i></a>
         </li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="carouselPromo" class="carousel slide mx-auto">
+    <!-- Carrusel de promos -->
+    <section id="carouselPromo" class="carousel slide mx-auto my-5">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselPromo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselPromo" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -66,59 +68,64 @@
       </button>
     </section>
 
-    <section class="card-group w-75 mx-auto my-5">
-      <div class="card uno">
-        <h5 class="card-header card-title text-center">Pizza Margherita</h5>
-        <div class="row align-items-center h-100 px-2 g-0">
-          <div class="col">
-            <img src="./Imagenes/pizzaMargherita.jpg" class="img-fluid rounded" alt="Pizza Margherita.">
-          </div>
-          <div class="col">
-            <div class="card-body">
-              <p class="card-text">Mozzarella, tomate y albahaca.</p>
+    <!-- Pizzaz más vendidas -->
+    <section class="my-5">
+      <h2 class="text-center my-5 py-5">Más Populares</h2>
+      <div class="card-group w-75 mx-auto">
+        <div class="card uno">
+          <h5 class="card-header card-title text-center">Pizza Margherita</h5>
+          <div class="row align-items-center h-100 px-2 g-0">
+            <div class="col">
+              <img src="./Imagenes/pizzaMargherita.jpg" class="img-fluid rounded" alt="Pizza Margherita.">
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <p class="card-text">Mozzarella, tomate y albahaca.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card-footer text-end">
-          Precio
-        </div>
-      </div>
-      <div class="card dos">
-        <h5 class="card-header card-title text-center">Pizza Capricciosa</h5>
-        <div class="row align-items-center h-100 px-2 g-0">
-          <div class="col">
-            <img src="./Imagenes/pizzaCapricciosa.jpg" class="img-fluid rounded" alt="Pizza Capricciosa.">
+          <div class="card-footer text-end">
+            $2500
           </div>
-          <div class="col">
-            <div class="card-body">
-              <p class="card-text">Mozzarella, tomate, jamón cocido, hongos, alcachofas y aceitunas negras.</p>
+        </div>
+        <div class="card dos">
+          <h5 class="card-header card-title text-center">Pizza Capricciosa</h5>
+          <div class="row align-items-center h-100 px-2 g-0">
+            <div class="col">
+              <img src="./Imagenes/pizzaCapricciosa.jpg" class="img-fluid rounded" alt="Pizza Capricciosa.">
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <p class="card-text">Mozzarella, tomate, jamón cocido, hongos, alcachofas y aceitunas negras.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card-footer text-end">
-          Precio
-        </div>
-      </div>
-      <div class="card">
-        <h5 class="card-header card-title text-center">Pizza Vegetariana</h5>
-        <div class="row align-items-center h-100 px-2 g-0">
-          <div class="col">
-            <img src="./Imagenes/pizzaVegetariana.jpg" class="img-fluid rounded" alt="Pizza Vegetariana.">
+          <div class="card-footer text-end">
+            $2850
           </div>
-          <div class="col">
-            <div class="card-body">
-              <p class="card-text">Mozzarella, tomate, pimientos, berenjenas y calabacines.</p>
+        </div>
+        <div class="card">
+          <h5 class="card-header card-title text-center">Pizza Vegetariana</h5>
+          <div class="row align-items-center h-100 px-2 g-0">
+            <div class="col">
+              <img src="./Imagenes/pizzaVegetariana.jpg" class="img-fluid rounded" alt="Pizza Vegetariana.">
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <p class="card-text">Mozzarella, tomate, pimientos, berenjenas y calabacines.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card-footer text-end">
-          Precio
+          <div class="card-footer text-end">
+            $2650
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="container text-center my-5">
-      <a class="border border-4 rounded-circle p-3" href="#">
+    <!-- Botón para llamar -->
+    <section class="container text-center my-5 py-5">
+      <a class="border border-4 rounded-circle p-3" href="#" title="Llamá y pedí">
         <i class="fa-solid fa-phone fa-flip-horizontal fa-xl" style="color: #fca311;"></i>
       </a>
     </section>

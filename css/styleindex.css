@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Podkova:wght@500&family=Rubik&display=swap');
+
+/* font-family: 'Ewert', cursive;
+font-family: 'Podkova', serif;
+font-family: 'Rubik', sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +15,7 @@ html {
 
 body {
   background-color: #020101;
+  font-family: 'Rubik', sans-serif;
 }
 
 header::before {
@@ -35,6 +42,7 @@ header::after {
 
 nav {
   background-color: #C6110C;
+  font-family: 'Podkova', serif;
 }
 
 .nav-link {
@@ -51,6 +59,12 @@ nav {
   width: 95vw;
 }
 
+h2 {
+  font-family: 'Ewert', cursive;
+  color: #E5E5E5;
+  font-size: 3em;
+}
+
 .card {
   border: 2px solid #FCA311;
 }
@@ -62,6 +76,7 @@ nav {
 .card-header {
   background-color: #C6110C;
   color: #E5E5E5;
+  font-family: 'Podkova', serif;
 }
 
 .card-footer {
@@ -72,9 +87,35 @@ nav {
   color: #020101;
 }
 
+.historia, .novedades {
+  color: #E5E5E5;
+}
+
+.historia img {
+  float: right;
+  border-radius: 5px;
+}
+
+.novedades img {
+  float: left;
+  border-radius: 5px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.novedades a {
+  color: #C6110C;
+  text-decoration: none;
+}
+
+.direcciones p {
+  color: #E5E5E5;
+}
+
 footer {
   background-color: #C6110C;
   color: #ffffff;
+  clear: left;
 }
 
 footer a {
