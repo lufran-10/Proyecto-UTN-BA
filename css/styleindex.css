@@ -36,9 +36,11 @@ header::after {
   border-right: 40px solid transparent;
 }
 
-/* header img {
-  border: 5px solid #C6110C;
-} */
+h1 {
+  color: #E5E5E5;
+  font-family: 'Ewert', cursive;
+  font-size: 4em;
+}
 
 nav {
   background-color: #C6110C;
