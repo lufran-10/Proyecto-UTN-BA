@@ -112,6 +112,69 @@ h2 {
   color: #E5E5E5;
 }
 
+form {	
+	width: 35%;
+  border-radius: 10px;
+  background-color: #C6110C;
+}
+
+input {
+	background-color: #ffffff;
+	width: 97%;
+	height: 40px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #020101;
+	margin-top: 10px;
+	padding-left: 0.5rem;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #ffffff;
+	width: 97%;
+	height: 150px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #020101;
+	margin-top: 10px;
+	padding-left: 0.5rem;
+  margin-bottom: 20px;
+  padding-top: 0.5rem;
+}
+
+label{
+  display: block;
+	float: center;
+}
+
+button {
+	height: 45px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-transform: uppercase;
+  color: #E5E5E5;
+	background-color: #020101;
+	border-color: #020101;
+	border-style: solid;
+	border-radius: 10px;
+	width: 97%;
+  cursor: pointer;
+}
+
+span {
+	color: #E5E5E5;
+}
+
+.aviso{
+	font-size: 13px;  
+	color: #020101;  
+}
+
 footer {
   background-color: #C6110C;
   color: #ffffff;
