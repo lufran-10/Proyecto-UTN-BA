@@ -110,6 +110,10 @@ h2 {
   text-decoration: none;
 }
 
+.fecha {
+  opacity: 0.75;
+}
+
 .direcciones p {
   color: #E5E5E5;
 }
